@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: runtime-config
+  labels:
+    {{- include "runtime.labels" . | nindent 4 }}
+
+data:
+  log.yaml: |
+{{ .Values.config.files.log | indent 4 }}
+
+  transport.yaml: |
+{{ .Values.config.files.transport | indent 4 }}

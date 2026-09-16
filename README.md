@@ -1,2 +1,9 @@
-# faas
-The self-hosted FaaS platform that lets you run serverless code on your own hardware
+# waas
+
+Workflow-as-a-Service is a lightweight serverless workflow runtime for managed, event-driven data-processing pipelines on Kubernetes.
+
+## Features
+
+## Getting Started
+
+## Usage

@@ -1,0 +1,13 @@
+name: WaaS Checks
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  dummy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dummy step
+        run: echo "Dummy job for checks"
