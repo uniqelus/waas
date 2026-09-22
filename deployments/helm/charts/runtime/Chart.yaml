@@ -1,6 +1,0 @@
-apiVersion: v2
-name: runtime
-description: Workflow-as-a-Service Runtime
-type: application
-version: 0.1.0
-appVersion: "latest"
